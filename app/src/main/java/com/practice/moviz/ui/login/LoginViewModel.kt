@@ -8,5 +8,5 @@ import androidx.lifecycle.ViewModel
 class LoginViewModel @ViewModelInject constructor(
     @Assisted private val savedStateHandle: SavedStateHandle
 ) : ViewModel()  {
-    // TODO: Implement the ViewModel
+
 }

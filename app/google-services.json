@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066259972831",
+    "firebase_url": "https://moviz-d4909.firebaseio.com",
+    "project_id": "moviz-d4909",
+    "storage_bucket": "moviz-d4909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066259972831:android:b6bf078903c6c593eb1f6a",
+        "android_client_info": {
+          "package_name": "com.practice.moviz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066259972831-g138ppot4b56qoin3t8iq0sah99g7h4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practice.moviz",
+            "certificate_hash": "6f2f8859f0e2eeb7876ddcd364b86c969eb51203"
+          }
+        },
+        {
+          "client_id": "1066259972831-deaf54qjsl15kkt2a1tmkmp9qs6erccp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJAfHl3HBIVoh-8eikJHVf_BHCdPmdmmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066259972831-deaf54qjsl15kkt2a1tmkmp9qs6erccp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

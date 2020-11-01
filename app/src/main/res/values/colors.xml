@@ -5,8 +5,9 @@
     <color name="colorAccent">#707070</color>
 
 
-    <color name="loginAppName">#FFBB3B</color>
-
-    <color name="mainButtonGradientEnd">#FFBB3B</color>
-    <color name="mainButtonGradientStart">#FFA90A</color>
+    <color name="yellow_light">#FFBB3B</color>
+    <color name="yellow_dark">#FFA90A</color>
+    <color name="white">#FFF</color>
+    <color name="gray_dark">#212121</color>
+    <color name="gray_light">#A2A2A2</color>
 </resources>

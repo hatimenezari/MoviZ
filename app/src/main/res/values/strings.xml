@@ -2,4 +2,8 @@
     <string name="app_name">Moviz</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_txt_social_logins">Social Logins</string>
+    <string name="login_et_email_hint">email here</string>
+    <string name="login_txt_email">EMAIL</string>
+    <string name="login_txt_main_title">PHOTOPLAY</string>
 </resources>
