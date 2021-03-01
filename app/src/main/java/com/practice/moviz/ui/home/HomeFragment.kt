@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.lifecycle.Observer
 import androidx.navigation.navGraphViewModels
 import com.practice.moviz.R
 import com.practice.moviz.data.model.Story
@@ -42,6 +43,12 @@ class HomeFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
+        viewModel.movies.observe(viewLifecycleOwner, Observer {
+            home_rclv_movies.adapter = MoviesAdapter(it)
+        })
+
+        viewModel.getMovies()
 
 
     }

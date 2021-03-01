@@ -13,7 +13,9 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.home.HomeFragment">
+        tools:context=".ui.home.HomeFragment"
+        android:background="@color/colorPrimary"
+        >
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/home_rclv_stories"
@@ -39,6 +41,20 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_rclv_movies"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:elevation="90dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/home_inc_default_story"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_rclv_stories"
+            tools:itemCount="10"
+            tools:listitem="@layout/item_movie" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
