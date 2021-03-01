@@ -5,6 +5,7 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ActivityComponent
+import javax.inject.Inject
 
 data class Story constructor(
     val icon: Int = R.drawable.ic_launcher_background,
@@ -14,7 +15,7 @@ data class Story constructor(
 
 @Module
 @InstallIn(ActivityComponent::class)
-object AnalyticsModule {
+object StoryModule {
     @Provides
     fun provideDefaultStory() =  Story()
 
